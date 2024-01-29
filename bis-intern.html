@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Deepak Kumar</title>
+   
+<style>
+        body {
+            color: #d1d1d1;
+            background: #1d1d20
+        }
+
+        .loading {
+            color: #d1d1d1;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            bottom: 0
+        }
+
+        .main {
+            opacity: 1;
+            transition: opacity .2s ease-in-out
+        }
+
+        .main.not-loaded {
+            opacity: 0
+        }
+
+        [data-name=corner-bottom-right],
+        [data-name=corner-top-left] {
+            opacity: 1;
+            width: 100px;
+            height: 100px;
+            transition: all ease-in-out;
+            position: absolute
+        }
+
+        [data-name=corner-top-left] {
+            top: 0;
+            left: 0
+        }
+
+        [data-name=corner-bottom-right] {
+            opacity: 0;
+            bottom: 0;
+            right: 0
+        }
+
+        .not-loaded [data-name=corner-top-left],
+        .not-loaded [data-name=corner-bottom-right] {
+            opacity: 0 !important;
+            width: 0 !important;
+            height: 0 !important
+        }
+
+        @media screen and (min-width:500px) {
+
+            [data-name=corner-bottom-right],
+            [data-name=corner-top-left] {
+                width: 300px;
+                height: 300px;
+                opacity: 1
+            }
+        }
+
+        .gradient1 {
+            stop-color: var(--grad-1);
+            transition: all .3s ease-in-out
+        }
+
+        .gradient2 {
+            stop-color: var(--grad-2);
+            transition: all .3s ease-in-out
+        }
+
+        .hover .gradient1 {
+            stop-color: var(--grad-2)
+        }
+
+        .hover .gradient2 {
+            stop-color: var(--grad-1)
+        }
+    </style>
+
+    <link rel="stylesheet" href="./portfolio.css">
+    <script src="./portfolio_files/index.28a0c5dd.js.download" defer=""></script>
+  
+</head>
+
+<body>
+  
+
+    <div class="main">
+        <div class="main-container">
+            <div id="main-container-inner" class="main-container-inner">
+
+                <div>
+                    <svg width="300" height="300" data-name="corner-top-left" xmlns="http://www.w3.org/2000/svg"
+                        style="pointer-events:none" data-inlinesvg=".inlineSvgFile-6">
+                        <defs>
+                            <lineargradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0" class="gradient1"></stop>
+                                <stop offset=".5" class="gradient2"></stop>
+                                <stop offset="1" class="gradient1"></stop>
+                            </lineargradient>
+                        </defs>
+                        <path fill="url(&#39;#grad1&#39;)"
+                            d="M8 0h292l-20 20H25a5 5 0 0 0-5 5v255L0 300V8a8 8 0 0 1 8-8Z"></path>
+                    </svg>
+                </div>
+                <div class="inner-container">
+                    <header>
+
+                        <div class="logo">
+                            <!-- <img src="./logo.jfif" alt="Institute logo"  href="abc.com" height="60" width="60"></img> -->
+                        </div>
+                        
+                    </header>
+                    <main class="projects-overview">
+                        <div class="main-message">
+                            <div class="welcome-message">
+                                <div>
+                                    <br><div style="text-align:center">
+                                    <h2>Software Development Intern </h2>
+                                    
+                                    </div>
+                                    <h3>Organisation</h3>
+                                    <span>
+                                        Bureau of Indian Standards, Government of India
+                                    </span>
+                                    <br>
+                                    <h3>
+                                        Location
+                                    </h3>
+                                    <span>
+                                       New Delhi, India
+                                    </span>
+                                    <br>
+                                    <h3>
+                                        Duration
+                                    </h3>
+                                    <span>May 2023 - July 2023</span>
+                                <br>
+                                <h3>Description</h3>
+                                <span>
+                                    • Developed blogging application/portal dedicated to educating customers, improvement, and standardization of nano nitrogen
+                                    fertilizers
+                                    <br>
+                                    • Implemented full stack web development techniques with utilization of React components, Express.js backend, and
+                                    MongoDB database
+                                    <br>
+
+                                    • Created various pages of user interface for the login and registration of new user, implemented login and logout
+                                    functionality
+                                    <br>
+                                    • Engineered Create, Read, Update, and Delete (CRUD) operations, JSON Web Token authentication, and development of
+                                    RESTful API
+                                    <br>
+                                    • Employed Material-UI to create a polished user interface, simultaneously ensuring a responsive design through the
+                                    utilization of Flexbox
+
+                                </span>
+                                   
+                                </div>
+                               
+                        </div>
+                        
+                    </main>
+                    <div>
+                        <svg width="300" height="300" data-name="corner-bottom-right" xmlns="http://www.w3.org/2000/svg"
+                            style="pointer-events:none" data-inlinesvg=".inlineSvgFile-5">
+                            <defs>
+                                <lineargradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0" class="gradient1">
+                                    </stop>
+                                    <stop offset=".5" class="gradient2"></stop>
+                                    <stop offset="1" class="gradient1"></stop>
+                                </lineargradient>
+                            </defs>
+                            <path fill="url(&#39;#grad2&#39;)"
+                                d="M292 300H0l20-20h255a5 5 0 0 0 5-5V20l20-20v292a8 8 0 0 1-8 8Z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer="" src="./portfolio_files/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+        integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+        data-cf-beacon="{&quot;rayId&quot;:&quot;848e4993dfcd40dd&quot;,&quot;r&quot;:1,&quot;version&quot;:&quot;2024.1.0&quot;,&quot;token&quot;:&quot;7a7a078f49fe498eb3befd1b61daf0e7&quot;}"
+        crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+Software Development Internship [May 2023 - July 2023]
+
+Description:
+• Developed blogging application dedicated to educating customers, improvement, and standardization of nano nitrogen fertilizers
+• Implemented full stack web development techniques with utilization of React components, Express.js backend, and MongoDB database
+• Created various pages of user interface for the login and registration of new user, implemented login and logout functionality
+• Engineered Create, Read, Update, and Delete (CRUD) operations, JSON Web Token authentication, and development of RESTful API
+• Employed Material-UI to create a polished user interface, simultaneously ensuring a responsive design through the utilization of Flexbox
