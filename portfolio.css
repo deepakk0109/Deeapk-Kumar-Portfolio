@@ -246,8 +246,8 @@ h2 {
 }
 
 .main-container .main-container-inner .inner-container {
-    -webkit-user-select: none;
-    user-select: none;
+/*     -webkit-user-select: none;
+    user-select: none; */
     z-index: 2;
     background: #1d1d20;
     border-radius: 5px;
